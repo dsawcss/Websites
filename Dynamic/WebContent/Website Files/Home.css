@@ -22,10 +22,12 @@ ul#footermenu {
 
 ul#footermenu li {
     display: inline;
+    font-size: 13px;
 }
 
 .Footer {
 	height: 100px;
 	text-align: center;
+	font-size: 10px;
 }
 </style>
