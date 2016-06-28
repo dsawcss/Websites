@@ -1,9 +1,9 @@
-<style type="text/css">
 .jumbotron {
-	background-color: white color: black
-}
+      background-color: #7ec0ee;
+      color: #fff;
+  }
 
-.Search { 
+.button input[type="button"] { 
 	text-align:right;
 	margin: 5px;
 }
@@ -31,4 +31,3 @@
 	text-align: center;
 	font-size: 10px;
 }
-</style>
