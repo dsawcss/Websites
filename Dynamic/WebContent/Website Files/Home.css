@@ -3,6 +3,11 @@
 	background-color: white color: black
 }
 
+.Search { 
+	text-align:right;
+	margin: 5px;
+}
+
 .Photo {
 	display: inline-block;
 	width: 200px;
