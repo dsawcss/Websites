@@ -11,16 +11,12 @@
 	border: 3px solid gray;
 }
 
-ul {
-	list-style-type: none;
-}
-
-ul#FooterMenu {
+#FooterMenu {
     padding: 0;
     text-align: center;
 }
 
-ul#FooterMenu li {
+#FooterMenu li {
     display: inline;
     font-size: 13px;
 }
