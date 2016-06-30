@@ -1,11 +1,18 @@
 .jumbotron {
       background-color: #7ec0ee;
       color: #fff;
-  }
+      max-height: 50px;
+      text-align: center;
+}
 
-.button input[type="button"] { 
-	text-align:right;
-	margin: 5px;
+.jumbotron h1 {
+      font-size: 30x;
+      margin: 0px;
+      padding: 0px;
+}
+      
+.jumbotron p {
+      font-size: 30px;
 }
 
 .Photo {
