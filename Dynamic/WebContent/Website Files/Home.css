@@ -1,11 +1,13 @@
+h1 {
+	font-size: 60px;
+	font-color: black;
+	text-align: center;
+}
 
-.jumbotron {
-  background-size: cover;
-  height: 100px;
-  background-color: #7ec0ee;
-  color: #fff;
-  text-align: center;
-  height: 50%;
+p {
+	font-size: 25px;
+	font-color: black;
+	text-align: center;
 }
 
 .Photo {
@@ -18,17 +20,16 @@
 }
 
 #FooterMenu {
-    padding: 0;
-    text-align: center;
+	padding: 0;
+	text-align: center;
 }
 
 #FooterMenu li {
-    display: inline;
-    font-size: 13px;
+	display: inline;
+	font-size: 13px;
 }
 
-.Footer {
-	height: 100px;
+.Footer p {
 	text-align: center;
 	font-size: 10px;
 }
