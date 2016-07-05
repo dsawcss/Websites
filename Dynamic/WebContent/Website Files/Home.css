@@ -38,6 +38,10 @@
 	font-size: 13px;
 }
 
+.Footer a {
+	float: center;
+}
+
 .Footer p {
 	text-align: center;
 	font-size: 10px;
