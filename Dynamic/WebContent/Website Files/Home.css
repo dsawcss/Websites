@@ -1,6 +1,6 @@
 .header img {
-	position: relative;
-	top: 100px;
+	position: static;
+	top: 10px;
 	left: 150px;
  	width: 100px;
   	height: 100px;
