@@ -1,18 +1,18 @@
 .logo img {
 	float: left;
- 	width: 100px;
-  	height: 100px;
+ 	width: 60px;
+  	height: 60px;
   	background: #555;
 }
 
 .header h1 {
 	white-space:nowrap;
-	font-size: 60px;
+	font-size: 30px;
 	font-color: black;
 }
 
 .header p {
-	font-size: 15px;
+	font-size: 10px;
 	font-color: black;
 }
 
