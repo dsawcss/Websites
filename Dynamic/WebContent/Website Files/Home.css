@@ -1,22 +1,19 @@
-.header img {
-	position: static;
-	top: 10px;
-	left: 150px;
+.logo img {
+	float: left;
  	width: 100px;
   	height: 100px;
   	background: #555;
 }
 
 .header h1 {
-	text-align: center;	
+	white-space:nowrap;
 	font-size: 60px;
 	font-color: black;
 }
 
 .header p {
-	font-size: 25px;
+	font-size: 15px;
 	font-color: black;
-	text-align: center;
 }
 
 .Photo {
