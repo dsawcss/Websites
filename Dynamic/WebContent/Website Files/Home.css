@@ -42,8 +42,14 @@ a: active {
 	margin:-10px 0 20px 0;
 }
 
-.socialmedia {
-	float: right;
+.socialmedia img {
+	position: relative;
+	display: inline-block;
+	text-align: right;
+	white-space: nowrap;
+	box-sizing: border-box;
+	
+    margin: 0;
 }	
 
 .Photo {
