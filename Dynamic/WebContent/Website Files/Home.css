@@ -5,7 +5,7 @@ a: link {
 }
 
 a: visited {
-	color: red;
+	color: purple;
 	background-color: ;
 	text-decoration: ;
 }
@@ -17,7 +17,7 @@ a: hover {
 }
 
 a: active {
-	color: blue;
+	color: red;
 	background-color:yellow ;
 	text-decoration:underline ;
 }
