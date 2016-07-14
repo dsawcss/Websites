@@ -1,3 +1,27 @@
+a: link {
+	color:;
+	background-color: ;
+	text-decoration: underline;
+}
+
+a: visited {
+	color: red;
+	background-color: ;
+	text-decoration: ;
+}
+
+a: hover {
+	color: blue;
+	background-color: blue;
+	text-decoration: underline;
+}
+
+a: active {
+	color: blue;
+	background-color:yellow ;
+	text-decoration:underline ;
+}
+
 .logo img {
 	float: left;
  	width: 60px;
@@ -5,6 +29,7 @@
   	background: #555;
   	margin: 0 10px 0 20px;
 }
+
 
 .header h1 {
 	font-size: 35px;
