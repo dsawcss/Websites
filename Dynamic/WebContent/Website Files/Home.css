@@ -33,14 +33,17 @@ a: active {
 
 .header h1 {
 	font-size: 35px;
+	height: 30px;
 	font-color: black;
-	line-height: 80%;
 }
 
+
 .header h2 {
-	display: inline;
+	display:inline;
 	font-size: 15px;
 	font-color: black;
+	height: 40px;
+	
 }
 
 .header p {
@@ -49,6 +52,7 @@ a: active {
 	font-family: verdena;
 	font-color: black;
 }
+
 
 .Photo {
 	display: inline-block;
