@@ -34,26 +34,21 @@ a: active {
 .header h1 {
 	font-size: 35px;
 	font-color: black;
+	line-height: 80%;
+}
+
+.header h2 {
+	display: inline;
+	font-size: 15px;
+	font-color: black;
 }
 
 .header p {
-	font-size: 15px;
-	font-color: black;
-	margin:-10px 0 20px 0;
-}
-
-.socialmedia {
-	
-}
-
-.socialmedia li {
-	position: relative;
 	display: inline;
-	list-style-type: none;
-	vertical-align: middle;
-	white-space: nowrap
-	text-align: right;
-}	
+	font-size: 10px;
+	font-family: verdena;
+	font-color: black;
+}
 
 .Photo {
 	display: inline-block;
