@@ -42,14 +42,17 @@ a: active {
 	margin:-10px 0 20px 0;
 }
 
-.socialmedia img {
-	position: relative;
-	display: inline-block;
-	text-align: right;
-	white-space: nowrap;
-	box-sizing: border-box;
+.socialmedia {
 	
-    margin: 0;
+}
+
+.socialmedia li {
+	position: relative;
+	display: inline;
+	list-style-type: none;
+	vertical-align: middle;
+	white-space: nowrap
+	text-align: right;
 }	
 
 .Photo {
