@@ -27,12 +27,13 @@ a: active {
  	width: 60px;
   	height: 60px;
   	background: #555;
-  	margin: 0 10px 0 20px;
+  	margin: 10px 10px 0 10px;
+
 }
 
 .header h1 {
 	display: inline-block;
-	margin-top: 0px;
+	margin-top: 10px;
 	font-size: 35px;
 	height: 30px;
 	font-color: black;
@@ -50,6 +51,7 @@ a: active {
 	margin: 0;
 	font-size: 15px;
 	font-color: black;
+	line-height: 80%;
 }
 
 .Photo {
