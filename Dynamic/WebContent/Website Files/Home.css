@@ -30,29 +30,27 @@ a: active {
   	margin: 0 10px 0 20px;
 }
 
-
 .header h1 {
+	display: inline-block;
+	margin-top: 0px;
 	font-size: 35px;
 	height: 30px;
 	font-color: black;
 }
 
-
-.header h2 {
-	display:inline;
-	font-size: 15px;
-	font-color: black;
-	height: 40px;
-	
-}
-
 .header p {
-	display: inline;
+	display:inline-block;
+	vertical-align: middle;
 	font-size: 10px;
 	font-family: verdena;
 	font-color: black;
 }
 
+.header h2 {
+	margin: 0;
+	font-size: 15px;
+	font-color: black;
+}
 
 .Photo {
 	display: inline-block;
