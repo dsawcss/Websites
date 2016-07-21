@@ -90,7 +90,7 @@ a: active {
 	font-color: black;
 }
 
-.header img{
+.header span {
 	width: 20px;
 	height: 20px;
 }
