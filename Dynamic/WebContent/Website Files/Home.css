@@ -40,8 +40,30 @@
     .col-12 {width: 100%;}
 }
 
-.logo img {
+
+a: link {
+	color:black;
+	text-decoration: underline;
+}
+
+a: visited {
+	color: purple;
+	text-decoration: ;
+}
+
+a: hover {
+	color: blue;
+	text-decoration: underline;
+}
+
+a: active {
+	color: red;
+	text-decoration:underline ;
+}
+
+.header a img {
 	float: left;
+	display: inline-block;
 	max-width: 100%
  	width: 60px;
  	max-height: 100%;
@@ -49,29 +71,6 @@
   	background: #555;
   	margin: 10px 10px 0 10px;
 
-}
-a: link {
-	color:;
-	background-color: ;
-	text-decoration: underline;
-}
-
-a: visited {
-	color: purple;
-	background-color: ;
-	text-decoration: ;
-}
-
-a: hover {
-	color: blue;
-	background-color: blue;
-	text-decoration: underline;
-}
-
-a: active {
-	color: red;
-	background-color:yellow ;
-	text-decoration:underline ;
 }
 
 .header h1 {
@@ -82,18 +81,20 @@ a: active {
 	font-color: black;
 }
 
-.header p {
-	display:inline-block;
-	vertical-align: middle;
+.header span p {
+	display: inline-block;
 	font-size: 10px;
-	font-family: verdena;
+	font-family: Verdana;
 	font-color: black;
 }
 
-.header span {
+.header span a img {
+	display: inline-block;
+	vertical-align: middle;
 	width: 20px;
 	height: 20px;
 }
+
 
 .header h2 {
 	margin: 0;
