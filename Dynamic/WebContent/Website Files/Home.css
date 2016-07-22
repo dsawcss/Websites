@@ -66,19 +66,21 @@ a: active {
 } 
 
 .Company {
-	display:inline;
+	display:inline-block;
 }
 
 .Company img {
- 	width: 60px;
-  	height: 60px;	
+	display:inline-block;
+ 	width: 38px;
+  	height: 38px;	
   	background: #555;
-  	margin: 10px 10px 10px 10px;
-
+  	margin: 0 5px 10px 5px;
 }
 
 .Company a {
-	margin-top: 10px;
+	display:inline-block;
+	text-align: center;
+	margin-top: 0px;
 	font-size: 35px;
 	height: 30px;
 	font-color: black;
@@ -86,7 +88,7 @@ a: active {
 }
 
 .SocialMediaIcon {
-	display:inline;
+	display:inline-block;
 }
 
 .header p {
@@ -97,6 +99,7 @@ a: active {
 }
 
 .SocialMediaIcon img {
+	display:inline-block;
 	vertical-align: middle;
 	width: 20px;
 	height: 20px;
