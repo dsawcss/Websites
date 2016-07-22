@@ -53,11 +53,11 @@ a: visited {
 
 a: hover {
 	color: blue;
-	text-decoration: underline;
+	text-decoration: ;
 }
 
 a: active {
-	color: red;
+	color: yellow;
 	text-decoration:underline ;
 }
 
