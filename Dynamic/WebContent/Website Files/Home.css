@@ -82,8 +82,8 @@ a:active {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
-	overflow: hidden;
-	background-color:#333;
+	overflow: auto;
+	background-color:#f1f1f1;
 }
 
 #NavMenu li {
@@ -96,9 +96,13 @@ a:active {
 	text-align: center;
     padding: 14px 50px;
     text-decoration: none;
-    color: white;
+    color: black;
 	}
 
+#NavMenu li a:hover {
+	background-color: #555;
+	color: white;
+}
 
 .Photo {
 	display: inline-block;
