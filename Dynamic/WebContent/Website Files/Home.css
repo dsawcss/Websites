@@ -43,16 +43,17 @@
 /* unvisited link */
 a:link {
     color: blue;
+    text-decoration:underline;
 }
 
 /* visited link */
 a:visited {
-    color: green;
+    color: purple;
 }
 
 /* mouse over link */
 a:hover {
-    color: hotpink;
+    color: red;
 }
 
 /* selected link */
@@ -87,13 +88,25 @@ a:active {
 }
 
 #FooterMenu {
-	text-align: center;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	border: 1px solid #e7e7e7;
+	background-color:#f3f3f3;
 }
 
 #FooterMenu li {
-	display: inline;
-	font-size: 13px;
-}
+	float: left;
+	}
+
+#FooterMenu li a {
+	display: block;
+	text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	}
+
 
 .Footer p {
 	text-align: center;
