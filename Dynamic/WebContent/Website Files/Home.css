@@ -40,6 +40,26 @@
     .col-12 {width: 100%;}
 }
 
+/* unvisited link */
+a:link {
+    color: blue;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: hotpink;
+}
+
+/* selected link */
+a:active {
+    color: blue;
+}
+
 .Company img {
 	float: left;
 	display:inline-block;
@@ -67,7 +87,6 @@
 }
 
 #FooterMenu {
-	padding: 0;
 	text-align: center;
 }
 
