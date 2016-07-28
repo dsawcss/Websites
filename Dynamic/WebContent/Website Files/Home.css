@@ -61,24 +61,13 @@ a:active {
     color: blue;
 }
 
-.Company img {
-	float: left;
+html, body {
+	margin: 0;
+	padding: 0;
+}
+
+#Nav {
 	display:inline-block;
- 	width: 50px;
-  	height: 50px;	
-  	background: #555;
-}
-
-.Company a {
-	vertical-align: middle;
-	margin-left: 5px;
-	font-size: 35px;
-	height: 20px;
-	color: Black;
-	font-family:Arial;
-}
-
-#NavMenu {
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
@@ -86,12 +75,12 @@ a:active {
 	background-color:#f1f1f1;
 }
 
-#NavMenu li {
+#Nav li {
 	float: left;
 	border: 1px solid #e7e7e7;
 	}
 
-#NavMenu li a {
+#Nav li a {
 	display: block;
 	text-align: center;
     padding: 14px 50px;
