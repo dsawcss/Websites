@@ -60,8 +60,8 @@
 }
 
 #FooterMenu li {
- float: left;
- border: 1px solid #e7e7e7;
+  float: left;
+  border: 1px solid #e7e7e7;
  }
 
 #FooterMenu li a {
