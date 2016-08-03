@@ -1,5 +1,5 @@
 
-#Nav {
+#NavBar {
   display:inline-block; 
   list-style-type: none;
   margin: 0;
@@ -9,12 +9,11 @@
   background-color:#f1f1f1;
 }
 
-#Nav li {
+#NavBar li {
   float: left;
-  border: 1px solid #e7e7e7;
 }
 
-#Nav li a {
+#NavBar li a {
   display: inline-block;
   text-align: center;
   padding: 10px 50px;
@@ -24,14 +23,21 @@
   color: black;
 }
 
-#Nav li a:hover {
+#NavBar li a:hover {
   background-color: #555;
   color: white;
 }
 
-#Nav img {
-  width: 20px;
-  height: 13px;
+#NavBar li a.active {
+	background-color: #4CAF50;
+	padding: 0;
+  margin: 0;
+}
+
+#NavBar img {
+  width: 150px;
+  height: 30px;
+  
 }
 
 .Photo {
