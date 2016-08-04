@@ -1,4 +1,16 @@
 
+.header > CompanyLogo img {
+  float: left;
+  width: 100px;
+  height: 100px;
+  background: #555;
+}
+.header > CompanyLogo h1 {
+  position: relative;
+  top: 18px;
+  left: 10px;
+}
+
 #NavBar {
   display:inline-block; 
   list-style-type: none;
@@ -11,7 +23,7 @@
 
 #NavBar li {
   float: left;
-  border: none;
+  border: 1px solid;
 }
 
 #NavBar li a {
@@ -31,14 +43,12 @@
 
 #NavBar li a.active {
   background-color: #4CAF50;
-  margin: 0;
-  padding: 0;
 }
 
 #NavBar li a.active img {
   float: left;
-  width: 100px;
-  height: 37.5px;
+  width: auto;
+  height: auto;
 }
 
 .Photo {
