@@ -36,8 +36,9 @@
 }
 
 #NavBar li a.active img {
+  float: left;
   width: 100px;
-  height: 30px;
+  height: 37.5px;
 }
 
 .Photo {
