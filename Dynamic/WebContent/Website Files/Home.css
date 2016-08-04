@@ -44,15 +44,7 @@
   color: white;
 }
 
-#NavBar li a.active {
-  background-color: #4CAF50;
-}
 
-#NavBar li a.active img {
-  float: left;
-  width: auto;
-  height: auto;
-}
 
 .Photo {
   display: inline-block;
