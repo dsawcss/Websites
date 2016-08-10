@@ -17,6 +17,7 @@
 
 .header button {
   float: right;
+  margin: 15px;
 }
 
 #NavBar {
