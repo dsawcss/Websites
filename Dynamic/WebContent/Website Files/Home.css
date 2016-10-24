@@ -48,12 +48,13 @@ div.item {
     width:200px;
 }
 
-.item img {
+div.item img {
     width: 200px;
     height: 150px;
     border: 2px solid gray;
 }
-.caption {
+
+span.caption {
     display: block;
     margin-bottom: 20px;
 }
