@@ -1,4 +1,4 @@
-.header img {
+div.header img {
  float: left;
  width: 40px;
  height: 40px;  
@@ -6,16 +6,17 @@
  background: #555;
 }
 
-.header h1 {
+div.header h1 {
  float: left;  
  color: black;
  margin: 7px 7px 5px 0px;  
 }
 
-.social {
+div.social {
  
 }
-.social img {
+
+div.social img {
  width: 20px;
  height: 20px;  
  margin: 17px 5px 0px 5px;
@@ -34,7 +35,7 @@
  float: left;
  display: inline-block;
  text-align: center;
- padding: 10px 50px;
+ padding: 10px 40px;
  overflow: hidden;
  text-decoration: none;
  font-size: 15px;
