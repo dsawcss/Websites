@@ -45,22 +45,31 @@ div.social img {
 }
 
 div.box {
- vertical-align: top;
  display: inline-block;
- margin: 10px 30px 0px 30px;   
- text-align: center;
+ margin: 20px; 
  width:200px;
+ border: 1px solid gray;
+}
+
+div.box:hover {
+ border: 2px solid #fff;
 }
 
 div.box img {
  width: 200px;
  height: 150px;
- border: 2px solid gray;
+ float: left;
 }
 
-span.caption {
- display: block;
- margin-bottom: 20px;
+/* yet to be tested with real img */
+div.box img img {
+ width: 100%;
+ height: auto;
+}
+
+div.desc {
+ padding: 15px;
+ text-align: center;
 }
 
 #FooterMenu {
