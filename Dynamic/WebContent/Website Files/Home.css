@@ -47,19 +47,20 @@ div.social img {
 div.box {
  display: inline-block;
  margin: 20px; 
- width:200px;
- border: 1px solid gray;
-}
-
-div.box:hover {
- border: 2px solid #fff;
 }
 
 div.box img {
  width: 200px;
  height: 150px;
  float: left;
+ border: 2px solid gray;
 }
+
+div.box img:hover {
+ border: 2px solid #ccc;
+}
+
+
 
 /* yet to be tested with real img */
 div.box img img {
@@ -68,6 +69,7 @@ div.box img img {
 }
 
 div.desc {
+ margin-top: 20px;
  padding: 15px;
  text-align: center;
 }
