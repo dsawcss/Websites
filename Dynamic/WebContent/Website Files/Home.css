@@ -38,15 +38,11 @@ ul.NavBar li a {
  padding: 15px 40px;
  text-decoration: none;
  transition: 0.3s;
- font-size: 17px
+ font-size: 17px;
 }
 
 ul.NavBar li a:hover {
- background-color: #c7c7c7;
-}
-
-ul.NavBar li.icon a:hover {
- background-color: #555;
+ background-color: gray;
 }
 
 ul.NavBar li.icon {
@@ -58,19 +54,19 @@ ul.NavBar li.icon {
    display: none;
   }
   ul.NavBar li.icon {
-   float:right;
+   float: right;
    display: inline-block;
   }
 }
 
-@media screen and (max-with:680px) {
+@media screen and (max-width:680px) {
   ul.NavBar.responsive {
    position: relative;
   }
   ul.NavBar.responsive li.icon {
    position: absolute;
-   right:0;
-   top:0;
+   right: 0;
+   top: 0;
   }
   ul.NavBar.responsive li {
    float: none;
@@ -80,14 +76,6 @@ ul.NavBar li.icon {
    display: block;
    text-align: left;
   }
-}
-
-funciton myFunction() {
-  var x = document.getElemntById("HomeNavBar")
-  if (x.className === "HomeNavBar") {
-      x.className +=" responsive";
-  } else {
-      x.className = "NavBar";}
 }
 
 div.box {
