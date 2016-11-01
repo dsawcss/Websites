@@ -49,7 +49,7 @@ ul.NavBar li.icon {
  display: none;
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:768px) {
   ul.NavBar li:not(:first-child) {
    display: none;
   }
@@ -59,7 +59,7 @@ ul.NavBar li.icon {
   }
 }
 
-@media screen and (max-width:680px) {
+@media screen and (max-width:768px) {
   ul.NavBar.responsive {
    position: relative;
   }
