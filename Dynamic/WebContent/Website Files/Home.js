@@ -1,5 +1,5 @@
 function myFunction() {
-  var x = document.getElemntById("HomeNavBar")
+  var x = document.getElemntById("myNavBar");
   if (x.className === "NavBar") {
       x.className +=" responsive";
   } else {

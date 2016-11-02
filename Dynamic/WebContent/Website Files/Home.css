@@ -47,6 +47,10 @@ ul.NavBar li a:hover {
 
 ul.NavBar li.icon {display: none;}
 
+/* When the screen is less than 768 pixels wide,
+ hide all list items, except for the 
+ first one ("Home"). Show the list item that contains
+ the link to open and close the NavBar (li.icon) */
 @media screen and (max-width:768px) {
   ul.NavBar li:not(:first-child) {display: none;}
   ul.NavBar li.icon {
