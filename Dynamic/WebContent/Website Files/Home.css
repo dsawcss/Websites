@@ -52,7 +52,7 @@ ul.NavBar li.icon {display: none;}
  first one ("Home"). Show the list item that contains
  the link to open and close the NavBar (li.icon) */
 @media screen and (max-width:768px) {
-  ul.NavBar li:not(:first-child) {display: none;}
+  ul.NavBar li:not(:nth-child(-n+3)) {display: none;}
   ul.NavBar li.icon {
     float: right;
     display: inline-block;
@@ -75,6 +75,32 @@ ul.NavBar li.icon {display: none;}
     text-align: left;
   }
 }
+
+@media screen and (max-width:600px) {
+  ul.NavBar li:not(:nth-child(-n+2)) {display: none;}
+  ul.NavBar li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
+
+@media screen and (max-width:600px) {
+  ul.NavBar.responsive {position: relative;}
+  ul.NavBar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.NavBar.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.NavBar.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
 
 div.box {
  display: inline-block;
