@@ -139,13 +139,12 @@ div.desc {
 
 #FooterMenu li {
  float: left;
- border: 1px solid #e7e7e7;
 }
 
 #FooterMenu li a {
  display: block;
  text-align: center;
- padding: 10px 50px;
+ padding: 15px 50px;
  text-decoration: none;
 }
 
