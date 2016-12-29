@@ -101,7 +101,30 @@ ul.NavBar li.icon {display: none;}
   }
 }
 
+@media screen and (max-width:300px) {
+  ul.NavBar li:not(:nth-child(-n+1)) {display: none;}
+  ul.NavBar li.icon {
+    float: right;
+    display: inline-block;
+  }
+}
 
+@media screen and (max-width:300px) {
+  ul.NavBar.responsive {position: relative;}
+  ul.NavBar.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.NavBar.responsive li {
+    float: none;
+    display: inline;
+  }
+  ul.NavBar.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
 div.box {
  display: inline-block;
  margin: 20px; 
