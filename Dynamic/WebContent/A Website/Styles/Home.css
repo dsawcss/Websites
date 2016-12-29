@@ -3,7 +3,7 @@ div.header img {
  width: 40px;
  height: 40px;  
  margin: 5px;
- background: #555;
+ background-color: white;
 }
 
 div.header h1 {
@@ -16,7 +16,7 @@ div.social img {
  width: 20px;
  height: 20px;  
  margin: 17px 2px 0px 2px;
- background: #555;
+ background-color: white;
 }
 
 ul.NavBar {
