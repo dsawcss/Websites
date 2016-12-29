@@ -60,7 +60,7 @@ ul.NavBar li.icon {display: none;}
 }
 
 @media screen and (max-width:768px) {
-  ul.NavBar.responsive {position: absolute;}
+  ul.NavBar.responsive {position: relative;}
   ul.NavBar.responsive li.icon {
     position: absolute;
     right: 0;
