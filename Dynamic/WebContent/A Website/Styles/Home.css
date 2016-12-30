@@ -35,7 +35,7 @@ ul.NavBar li a {
  display: inline-block;
  color: #333;
  text-align: center;
- padding: 15px 40px;
+ padding: 15px 20px;
  text-decoration: none;
  transition: 0.3s;
  font-size: 17px;
@@ -80,7 +80,7 @@ ul.NavBar li.icon {display: none;}
   ul.NavBar li:not(:nth-child(-n+3)) {display: none;}
   ul.NavBar li.icon {
     float: right;
-    display: inline-block;
+    display: inline;
   }
 }
 
@@ -109,7 +109,7 @@ ul.NavBar li.icon {display: none;}
   }
 }
 
-@media screen and (max-width:480px) {
+@media screen and (max-width:320px) {
   ul.NavBar.responsive {position: relative;}
   ul.NavBar.responsive li.icon {
     position: absolute;
@@ -118,7 +118,7 @@ ul.NavBar li.icon {display: none;}
   }
   ul.NavBar.responsive li {
     float: none;
-    display: inline;
+    display: inline-block;
   }
   ul.NavBar.responsive li a {
     display: block;
