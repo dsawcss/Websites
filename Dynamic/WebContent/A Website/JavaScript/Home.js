@@ -1,9 +1,9 @@
 /*
   Long form of the Below Function
   function ResponsiveNav() {
-  var x = document.getElementById("MyNavBar"); // Cannot Select Class By Id
+  var x = document.getElementById("MyNavBar"); // Cannot Select Class Only By Id
   x.className += " responsive" // adding additonal class to an element
-  if (x.className === "NavBar responsive") {
+  if (x.className === "NavBar responsive") { // triple equal to prevent type change
       x.className = "NavBar responsive";   
   } else {
       x.className = "NavBar";
