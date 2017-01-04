@@ -15,7 +15,7 @@
 function ResponsiveNav() {
   var x = document.getElementById("MyNavBar");
   if (x.className === "NavBar") {
-      x.className += " responsive"; 
+      x.className += " Responsive"; 
   } else {
       x.className = "NavBar";
       }

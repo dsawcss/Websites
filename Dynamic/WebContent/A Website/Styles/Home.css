@@ -60,17 +60,17 @@ ul.NavBar li.icon {display: none;}
 }
 
 @media screen and (max-width:768px) {
-  ul.NavBar.responsive {position: relative;}
-  ul.NavBar.responsive li.icon {
+  ul.NavBar.Responsive {position: relative;}
+  ul.NavBar.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.NavBar.responsive li {
+  ul.NavBar.Responsive li {
     float: none;
     display: inline;
   }
-  ul.NavBar.responsive li a {
+  ul.NavBar.Responsive li a {
     display: block;
     text-align: left;
   }
@@ -85,17 +85,17 @@ ul.NavBar li.icon {display: none;}
 }
 
 @media screen and (max-width:600px) {
-  ul.NavBar.responsive {position: relative;}
-  ul.NavBar.responsive li.icon {
+  ul.NavBar.Responsive {position: relative;}
+  ul.NavBar.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.NavBar.responsive li {
+  ul.NavBar.Responsive li {
     float: none;
     display: inline;
   }
-  ul.NavBar.responsive li a {
+  ul.NavBar.Responsive li a {
     display: block;
     text-align: left;
   }
@@ -110,17 +110,17 @@ ul.NavBar li.icon {display: none;}
 }
 
 @media screen and (max-width:320px) {
-  ul.NavBar.responsive {position: relative;}
-  ul.NavBar.responsive li.icon {
+  ul.NavBar.Responsive {position: relative;}
+  ul.NavBar.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.NavBar.responsive li {
+  ul.NavBar.Responsive li {
     float: none;
     display: inline-block;
   }
-  ul.NavBar.responsive li a {
+  ul.NavBar.Responsive li a {
     display: block;
     text-align: left;
   }
