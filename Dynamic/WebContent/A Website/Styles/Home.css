@@ -19,7 +19,7 @@ div.social img {
  background-color: white;
 }
 
-ul.NavBar {
+ul.TopNav {
  list-style-type: none;
  morgin: 0;
  padding: 0;
@@ -27,11 +27,11 @@ ul.NavBar {
  background-color: #e6e6e6;
 }
 
-ul.NavBar li {
+ul.TopNav li {
  float: left;
 }
 
-ul.NavBar li a {
+ul.TopNav li a {
  display: inline-block;
  color: #333;
  text-align: center;
@@ -41,86 +41,86 @@ ul.NavBar li a {
  font-size: 17px;
 }
 
-ul.NavBar li a:hover {
+ul.TopNav li a:hover {
  background-color: gray;
 }
 
-ul.NavBar li.icon {display: none;}
+ul.TopNav li.icon {display: none;}
 
 /* When the screen is less than 768 pixels wide,
  hide all list items, except for the 
  first one ("Home"). Show the list item that contains
- the link to open and close the NavBar (li.icon) */
+ the link to open and close the TopNav (li.icon) */
 @media screen and (max-width:768px) {
-  ul.NavBar li:not(:nth-child(-n+4)) {display: none;}
-  ul.NavBar li.icon {
+  ul.TopNav li:not(:nth-child(-n+4)) {display: none;}
+  ul.TopNav li.icon {
     float: right;
     display: inline-block;
   }
 }
 
 @media screen and (max-width:768px) {
-  ul.NavBar.Responsive {position: relative;}
-  ul.NavBar.Responsive li.icon {
+  ul.TopNav.Responsive {position: relative;}
+  ul.TopNav.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.NavBar.Responsive li {
+  ul.TopNav.Responsive li {
     float: none;
     display: inline;
   }
-  ul.NavBar.Responsive li a {
+  ul.TopNav.Responsive li a {
     display: block;
     text-align: left;
   }
 }
 
 @media screen and (max-width:600px) {
-  ul.NavBar li:not(:nth-child(-n+3)) {display: none;}
-  ul.NavBar li.icon {
+  ul.TopNav li:not(:nth-child(-n+3)) {display: none;}
+  ul.TopNav li.icon {
     float: right;
     display: inline;
   }
 }
 
 @media screen and (max-width:600px) {
-  ul.NavBar.Responsive {position: relative;}
-  ul.NavBar.Responsive li.icon {
+  ul.TopNav.Responsive {position: relative;}
+  ul.TopNav.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.NavBar.Responsive li {
+  ul.TopNav.Responsive li {
     float: none;
     display: inline;
   }
-  ul.NavBar.Responsive li a {
+  ul.TopNav.Responsive li a {
     display: block;
     text-align: left;
   }
 }
 
 @media screen and (max-width:320px) {
-  ul.NavBar li:not(:nth-child(-n+1)) {display: none;}
-  ul.NavBar li.icon {
+  ul.TopNav li:not(:nth-child(-n+1)) {display: none;}
+  ul.TopNav li.icon {
     float: right;
     display: inline-block;
   }
 }
 
 @media screen and (max-width:320px) {
-  ul.NavBar.Responsive {position: relative;}
-  ul.NavBar.Responsive li.icon {
+  ul.TopNav.Responsive {position: relative;}
+  ul.TopNav.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.NavBar.Responsive li {
+  ul.TopNav.Responsive li {
     float: none;
     display: inline-block;
   }
-  ul.NavBar.Responsive li a {
+  ul.TopNav.Responsive li a {
     display: block;
     text-align: left;
   }
