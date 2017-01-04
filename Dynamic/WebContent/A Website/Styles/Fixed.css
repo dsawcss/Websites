@@ -63,12 +63,12 @@ a:hover {
  color: red;
 }
 
-/* selected link */
+/* clicked and loading link */
 a:active {
  color: blue;
 }
 
-/* image box*/
+/* mouse over image box link*/
 box:hover {
  color: red;
 }
