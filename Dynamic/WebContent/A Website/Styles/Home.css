@@ -45,7 +45,8 @@ ul.TopNav li a:hover, .dropdown:hover, .dropbtn {
  background-color: #e6e6e6;
 }
 
-li.dropdown {
+.dropdown {
+ position: relative;
  display:inline-block;
 }
 
@@ -66,6 +67,10 @@ div.dropdown-content a {
 
 div.dropdown:hover, .dropdown-content {
  display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
 
 ul.TopNav li.icon {display: none;}
