@@ -1,4 +1,4 @@
-div.header img {
+.header img {
  float: left;
  width: 40px;
  height: 40px;  
@@ -6,20 +6,20 @@ div.header img {
  background-color: white;
 }
 
-div.header h1 {
+.header h1 {
  float: left;  
  color: black;
  margin: 7px 7px 5px 0px;  
 }
 
-div.social img {
+.social img {
  width: 20px;
  height: 20px;  
  margin: 17px 2px 0px 2px;
  background-color: white;
 }
 
-ul.TopNav {
+.TopNav {
  list-style-type: none;
  morgin: 0;
  padding: 0;
@@ -27,11 +27,11 @@ ul.TopNav {
  background-color: #e6e6e6;
 }
 
-ul.TopNav li {
+.TopNav li {
  float: left;
 }
 
-ul.TopNav li a,.dropbtn {
+.TopNav li a, .dropbtn {
  display: inline-block;
  color: #333;
  text-align: center;
@@ -41,23 +41,23 @@ ul.TopNav li a,.dropbtn {
  font-size: 17px;
 }
 
-ul.TopNav li a:hover, .dropdown:hover .dropbtn {
- background-color: #e6e6e6;
+.TopNav li a:hover, .dropdown:hover .dropbtn {
+ background-color: gray;
 }
 
-ul.TopNav li.dropdown {
- position: relative;
+.dropdown {
  display:inline-block;
 }
 
-div.dropdown-content {
+.dropdown-content {
  display: none;
  position: absolute;
  background color: gray;
  min-width: 160px;
+ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
 }
 
-div.dropdown-content a {
+.dropdown-content a {
  color: black;
  padding: 12px 16px;
  text-decoration: none;
@@ -65,90 +65,90 @@ div.dropdown-content a {
  text-align: left;
 }
 
-div.dropdown:hover, .dropdown-content {
+.dropdown-content a:hover {
+ background-color:#f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
  display: block;
 }
 
-.dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-}
-
-ul.TopNav li.icon {display: none;}
+.TopNav li.icon {display: none;}
 
 /* When the screen is less than 768 pixels wide,
  hide all list items, except for the 
  first one ("Home"). Show the list item that contains
  the link to open and close the TopNav (li.icon) */
 @media screen and (max-width:768px) {
-  ul.TopNav li:not(:nth-child(-n+4)) {display: none;}
-  ul.TopNav li.icon {
+  .TopNav li:not(:nth-child(-n+4)) {display: none;}
+  .TopNav li.icon {
     float: right;
     display: inline-block;
   }
 }
 
 @media screen and (max-width:768px) {
-  ul.TopNav.Responsive {position: relative;}
-  ul.TopNav.Responsive li.icon {
+  .TopNav.Responsive {position: relative;}
+  .TopNav.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.TopNav.Responsive li {
+  .TopNav.Responsive li {
     float: none;
     display: inline;
   }
-  ul.TopNav.Responsive li a {
+  .TopNav.Responsive li a {
     display: block;
     text-align: left;
   }
 }
 
 @media screen and (max-width:600px) {
-  ul.TopNav li:not(:nth-child(-n+3)) {display: none;}
-  ul.TopNav li.icon {
+  .TopNav li:not(:nth-child(-n+3)) {display: none;}
+  .TopNav li.icon {
     float: right;
-    display: inline;
+    display: inline-block;
   }
 }
 
 @media screen and (max-width:600px) {
-  ul.TopNav.Responsive {position: relative;}
-  ul.TopNav.Responsive li.icon {
+  .TopNav.Responsive {position: relative;}
+  .TopNav.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.TopNav.Responsive li {
+  .TopNav.Responsive li {
     float: none;
-    display: inline;
+    display: inline-block;
   }
-  ul.TopNav.Responsive li a {
+  .TopNav.Responsive li a {
     display: block;
     text-align: left;
   }
 }
 
 @media screen and (max-width:320px) {
-  ul.TopNav li:not(:nth-child(-n+1)) {display: none;}
-  ul.TopNav li.icon {
+  .TopNav li:not(:nth-child(-n+1)) {display: none;}
+  .TopNav li.icon {
     float: right;
     display: inline-block;
   }
 }
 
 @media screen and (max-width:320px) {
-  ul.TopNav.Responsive {position: relative;}
-  ul.TopNav.Responsive li.icon {
+  .TopNav.Responsive {position: relative;}
+  .TopNav.Responsive li.icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  ul.TopNav.Responsive li {
+  .TopNav.Responsive li {
     float: none;
     display: inline-block;
   }
-  ul.TopNav.Responsive li a {
+  .TopNav.Responsive li a {
     display: block;
     text-align: left;
   }
