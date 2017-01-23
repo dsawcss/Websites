@@ -20,4 +20,3 @@ function ResponsiveNav() {
       x.className = "TopNav";
       }
 }
-
