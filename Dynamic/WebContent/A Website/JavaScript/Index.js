@@ -13,10 +13,10 @@
 
 //function to open dropdown and return to original element
 function ResponsiveNav() {
-  var x = document.getElementById("MyTopNav");
-  if (x.className === "TopNav") {
-      x.className += " Responsive"; 
-  } else {
-      x.className = "TopNav";
-      }
+	var x = document.getElementById("MyTopNav");
+	if (x.className === "TopNav") {
+		x.className += " Responsive"; 
+	} else {
+		x.className = "TopNav";
+	}
 }
