@@ -1,5 +1,0 @@
-<htmL>
-<head>
-
-</head>
-</htmL>
