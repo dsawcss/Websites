@@ -49,7 +49,7 @@
 	</div>
 	
     <div class="ContentArea">
-        <?php ?>
+        <?php echo $content ?>
     </div>
 
 	<ul id="FooterMenu">
