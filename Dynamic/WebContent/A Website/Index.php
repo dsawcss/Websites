@@ -1,6 +1,6 @@
 <?php 
 $title = "Home";
-$content = "Testing";
+$content = 'test';
 
 include 'Template.php';
 
