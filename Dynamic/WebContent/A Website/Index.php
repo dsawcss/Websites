@@ -1,6 +1,6 @@
 <?php 
 $title = "Home";
-$content = 'test';
+$content = '<img src = blah blah blah';
 
 include 'Template.php';
 
