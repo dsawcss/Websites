@@ -10,7 +10,9 @@ if (x.className === "TopNav Responsive") { // triple equal to prevent type chang
     }
 }
 */
-
+var width = window.innerWidth;
+    document.write('<iframe src="content.php?w='+width+'"></iframe>');
+    
 //function to open dropdown and return to original element
 function ResponsiveNav() {
   var x = document.getElementById("MyTopNav");
