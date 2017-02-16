@@ -112,7 +112,7 @@ ul.TopNav li.icon {
 }
 
 @media screen and (max-width:320px) {
-    ul.TopNav li:not(:nth-child(-n+3)) {
+    ul.TopNav li:not(:nth-child(-n+2)) {
         display: none;
     }
     ul.TopNav li.icon {
