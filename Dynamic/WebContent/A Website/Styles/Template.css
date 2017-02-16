@@ -54,29 +54,29 @@ li {
  first one ("Home"). Show the list item that contains
  the link to open and close the TopNav (li.icon) */
 @media screen and (max-width:768px) {
-	ul.TopNav li:not (:nth-child(-n+4) ) {
+	.TopNav li:not (:nth-child(-n+4) ) {
 		display: none;
 	}
-	ul.TopNav li.icon {
+	.TopNav li.icon {
 		float: right;
 		display: inline-block;
 	}
 }
 
 @media screen and (max-width:768px) {
-	ul.TopNav.Responsive {
+	.TopNav.Responsive {
 		position: relative;
 	}
-	ul.TopNav.Responsive li.icon {
+	.TopNav.Responsive li.icon {
 		position: absolute;
 		right: 0;
 		top: 0;
 	}
-	ul.TopNav.Responsive li {
+	.TopNav.Responsive li {
 		float: none;
 		display: inline-block;
 	}
-	ul.TopNav.Responsive li a {
+	.TopNav.Responsive li a {
 		display: block;
 		text-align: left;
 	}
