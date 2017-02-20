@@ -16,7 +16,6 @@
 </head>
 
 <body>
-    <!-- Logo with hyperlink to refresh followed by name of company -->
     <div class="header">
         <img src="" alt="box">
         <h1>
@@ -25,10 +24,12 @@
     </div>
 
     <div class="social">
-       <img src="" alt="f"> <img src="" alt="t"> <img src=""
-            alt="i"> <img src="" alt="s">
+       <img src="" alt="f"> 
+       <img src="" alt="t"> 
+       <img src="" alt="i">
+       <img src="" alt="s">
     </div>
-
+    	
     <ul class="TopNav" id="MyTopNav">
         <li><a class="active" href="Index.php" title="Index">Home</a></li>
         <li><a href="#" title="Computer">Computer</a></li>
@@ -41,7 +42,8 @@
         <li class="icon"><a href="javascript:void(0);"
             style="font-size: 15px;" onclick="ResponsiveNav()">&#9776;</a></li>
     </ul>
-
+	
+	
     <!-- Drop down the item when hover before clicking -->
 
     <br>
