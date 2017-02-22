@@ -58,7 +58,7 @@ ul.TopNav li.icon {
  first one ("Home"). Show the list item that contains
  the link to open and close the TopNav (li.icon) */
 @media screen and (max-width:768px) {
-    ul.TopNav li:not(:nth-child(-n+4)) {
+    ul.TopNav li:not(:nth-child(-n+5)) {
         display: none;
     }
     ul.TopNav li.icon {
@@ -87,7 +87,7 @@ ul.TopNav li.icon {
 }
 
 @media screen and (max-width:600px) {
-    ul.TopNav li:not(:nth-child(-n+3)) {
+    ul.TopNav li:not(:nth-child(-n+4)) {
         display: none;
     }
     ul.TopNav li.icon {
@@ -116,7 +116,7 @@ ul.TopNav li.icon {
 }
 
 @media screen and (max-width:320px) {
-    ul.TopNav li:not(:nth-child(-n+2)) {
+    ul.TopNav li:not(:nth-child(-n+3)) {
         display: none;
     }
     ul.TopNav li.icon {
@@ -149,22 +149,17 @@ div.desc {
     text-align: center;
 }
 
-#FooterMenu {
+.FooterMenu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f3f3f3;
-}
-
-#FooterMenu li {
-    float: left;
-}
-
-#FooterMenu li a {
-    display: block;
     text-align: center;
-    padding: 15px 50px;
+}
+
+.FooterMenu li {
+    display:inline-block;
+}
+
+.FooterMenu li a {
+    padding: 5px;
     text-decoration: none;
 }
 

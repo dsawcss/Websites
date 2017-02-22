@@ -56,7 +56,7 @@
         <?php echo $content; ?>
     </div>
 
-    <ul id="FooterMenu">
+    <div class="FooterMenu">
         <li><a href="#"> About Us </a></li>
         <li><a href="#"> Contacts </a></li>
         <li><a href="#"> Terms &#38; Conditions </a></li>
