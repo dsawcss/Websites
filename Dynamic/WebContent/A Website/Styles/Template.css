@@ -149,9 +149,18 @@ div.desc {
     text-align: center;
 }
 
+.FooterWrap {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color:black;
+}
+
 .FooterMenu {
     list-style-type: none;
     text-align: center;
+    padding: 20px;
 }
 
 .FooterMenu li {
@@ -159,11 +168,13 @@ div.desc {
 }
 
 .FooterMenu li a {
+    color: white;
     padding: 5px;
     text-decoration: none;
 }
 
 .Footer p {
+    color: white;
     text-align: center;
     font-size: 10px;
 }

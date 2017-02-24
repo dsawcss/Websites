@@ -105,6 +105,11 @@ box:hover {
     background-color: white;
 }
 
+.social p {
+    float: right;
+    display: block;
+}
+
 ul.TopNav {
     list-style-type: none;
     morgin: 0;
@@ -113,10 +118,9 @@ ul.TopNav {
     background-color: black;
 }
 
-li {
+ul.TopNav li {
     float: left;
 }
-
 ul.TopNav li a {
     display: inline-block;
     color: white;
@@ -140,7 +144,7 @@ ul.TopNav li.icon {
  first one ("Home"). Show the list item that contains
  the link to open and close the TopNav (li.icon) */
 @media screen and (max-width:768px) {
-    ul.TopNav li:not(:nth-child(-n+4)) {
+    ul.TopNav li:not(:nth-child(-n+5)) {
         display: none;
     }
     ul.TopNav li.icon {
@@ -159,8 +163,8 @@ ul.TopNav li.icon {
         top: 0;
     }
     ul.TopNav.Responsive li {
-    float: none;
-    display: inline;
+        float: none;
+        display: inline;
     }
     ul.TopNav.Responsive li a {
         display: block;
@@ -169,7 +173,7 @@ ul.TopNav li.icon {
 }
 
 @media screen and (max-width:600px) {
-    ul.TopNav li:not(:nth-child(-n+3)) {
+    ul.TopNav li:not(:nth-child(-n+4)) {
         display: none;
     }
     ul.TopNav li.icon {
@@ -198,7 +202,7 @@ ul.TopNav li.icon {
 }
 
 @media screen and (max-width:320px) {
-    ul.TopNav li:not(:nth-child(-n+2)) {
+    ul.TopNav li:not(:nth-child(-n+3)) {
         display: none;
     }
     ul.TopNav li.icon {
@@ -231,29 +235,36 @@ div.desc {
     text-align: center;
 }
 
-#FooterMenu {
+.FooterWrap {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color:black;
+}
+
+.FooterMenu {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #f3f3f3;
-}
-
-#FooterMenu li {
-    float: left;
-}
-
-#FooterMenu li a {
-    display: block;
     text-align: center;
-    padding: 15px 50px;
+    padding: 20px;
+}
+
+.FooterMenu li {
+    display:inline-block;
+}
+
+.FooterMenu li a {
+    color: white;
+    padding: 5px;
     text-decoration: none;
 }
 
 .Footer p {
+    color: white;
     text-align: center;
     font-size: 10px;
 }
+
 </style>
 <script>
 /*
@@ -283,7 +294,6 @@ function ResponsiveNav() {
 </head>
 
 <body>
-    <!-- Logo with hyperlink to refresh followed by name of company -->
     <div class="header">
         <img src="" alt="box">
         <h1>
@@ -292,12 +302,14 @@ function ResponsiveNav() {
     </div>
 
     <div class="social">
-       <img src="" alt="f"> <img src="" alt="t"> <img src=""
-            alt="i"> <img src="" alt="s">
+       <img src="" alt="f"> 
+       <img src="" alt="t"> 
+       <img src="" alt="i">
+       <img src="" alt="s">
     </div>
-
+        
     <ul class="TopNav" id="MyTopNav">
-        <li><a class="active" title="Index">Home</a></li>
+        <li><a class="active" href="Index.php" title="Index">Home</a></li>
         <li><a href="#" title="Computer">Computer</a></li>
         <li><a href="#" title="Phone">Phone</a></li>
         <li><a href="#" title="Tablets">Tablets</a></li>
@@ -308,7 +320,8 @@ function ResponsiveNav() {
         <li class="icon"><a href="javascript:void(0);"
             style="font-size: 15px;" onclick="ResponsiveNav()">&#9776;</a></li>
     </ul>
-
+    
+    
     <!-- Drop down the item when hover before clicking -->
 
     <br>
@@ -318,21 +331,22 @@ function ResponsiveNav() {
     </div>
     
     <div class="ContentArea">
-        test 
+        <?php echo $content; ?>
     </div>
 
-    <ul id="FooterMenu">
-        <li><a href="#"> About Us </a></li>
-        <li><a href="#"> Contacts </a></li>
-        <li><a href="#"> Terms &#38; Conditions </a></li>
-        <li><a href="#"> Feedback </a></li>
-    </ul>
+    <div class="FooterWrap">
+        <div class="FooterMenu">
+            <li><a href="#"> About Us </a></li>
+            <li><a href="#"> Contacts </a></li>
+            <li><a href="#"> Terms &#38; Conditions </a></li>
+            <li><a href="#"> Feedback </a></li>
+        </div>
 
-    <div class="Footer">
-        <p>Copyright &copy; 2016 .com &trade; All Rights Reserved. Year
+        <div class="Footer">
+            <p>Copyright &copy; 2016 .com &trade; All Rights Reserved. Year
             Range</p>
+        </div>
     </div>
-
 
 </body>
 </html>

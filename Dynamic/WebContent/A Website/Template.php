@@ -13,8 +13,6 @@
 <script src="JavaScript/Template.js" type="text/javascript"></script>
 </head>
 
-</head>
-
 <body>
     <div class="header">
         <img src="" alt="box">
@@ -56,16 +54,18 @@
         <?php echo $content; ?>
     </div>
 
-    <div class="FooterMenu">
-        <li><a href="#"> About Us </a></li>
-        <li><a href="#"> Contacts </a></li>
-        <li><a href="#"> Terms &#38; Conditions </a></li>
-        <li><a href="#"> Feedback </a></li>
-    </ul>
+     <div class="FooterWrap">
+        <div class="FooterMenu">
+            <li><a href="#"> About Us </a></li>
+            <li><a href="#"> Contacts </a></li>
+            <li><a href="#"> Terms &#38; Conditions </a></li>
+            <li><a href="#"> Feedback </a></li>
+        </div>
 
-    <div class="Footer">
-        <p>Copyright &copy; 2016 .com &trade; All Rights Reserved. Year
+        <div class="Footer">
+            <p>Copyright &copy; 2016 .com &trade; All Rights Reserved. Year
             Range</p>
+        </div>
     </div>
 
 
