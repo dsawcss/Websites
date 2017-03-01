@@ -22,11 +22,10 @@
     </div>
 
     <div class="social">
-       <img src="" alt="f"> 
-       <img src="" alt="t"> 
-       <img src="" alt="i">
-       <img src="" alt="s">
-       <a href="#">test</a>
+       <a href="#"><img src="" alt="f"></a> 
+       <a href="#"><img src="" alt="t"></a>
+       <a href="#"><img src="" alt="i"></a>
+       <a href="#"><img src="" alt="s"></a>
     </div>
     
     <ul class="TopNav" id="MyTopNav">
