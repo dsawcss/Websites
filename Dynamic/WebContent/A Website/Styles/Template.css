@@ -115,7 +115,7 @@ ul.TopNav li.icon {
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) and (max-width:420px)  {
     ul.TopNav li:not(:nth-child(-n+3)) {
         display: none;
     }
@@ -125,7 +125,7 @@ ul.TopNav li.icon {
     }
 }
 
-@media screen and (max-width:320px) {
+@media screen and (min-width:320px) and (max-width:420px) {
     .TopNav.Responsive {
         position: relative;
     }
