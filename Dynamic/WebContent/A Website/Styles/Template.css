@@ -170,8 +170,14 @@ div.desc {
 
 .FooterMenu li a {
     color: white;
+    border-right: 1px solid #fff;
+    line-height: 1;
     padding: 5px;
     text-decoration: none;
+}
+
+.FooterMenu li:first-child a {
+	border-left: none;
 }
 
 .Footer p {
