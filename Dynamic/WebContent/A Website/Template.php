@@ -29,7 +29,7 @@
     </div>
     
     <ul class="TopNav" id="MyTopNav">
-        <li><a class="active" href="Index.php" title="Index">Home</a></li>
+        <li><a class="active" href="Index.php" title="Index">Testing</a></li>
         <li><a href="#" title="Computer">Computer</a></li>
         <li><a href="#" title="Phone">Phone</a></li>
         <li><a href="#" title="Tablets">Tablets</a></li>
