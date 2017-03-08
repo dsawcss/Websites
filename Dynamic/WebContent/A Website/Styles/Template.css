@@ -12,17 +12,15 @@
     margin: 7px 7px 5px 0px;
 }
 
-
 .social img {
     width: 20px;
     height: 20px;
-    margin: 17px 2px 10px 2px;
+    margin: 20px 2px 0px 2px;
     background-color: white;
 }
 
 .social::after {
-	margin: 10px;
-	content: "Test - Hawker food for everyone";
+	content: "Test";
 }
 
 ul.TopNav {
