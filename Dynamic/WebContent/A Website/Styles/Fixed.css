@@ -50,12 +50,15 @@ html, body {
 /* unvisited link */
 a:link {
  color: black;
- text-decoration:underline;
+ text-decoration:none;
 }
-
 /* visited link */
 a:visited {
  color: purple;
+}
+
+h1 a:visited { 
+text-decoration:none; 
 }
 
 /* mouse over link */
