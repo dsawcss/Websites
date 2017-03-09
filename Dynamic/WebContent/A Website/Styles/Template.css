@@ -2,14 +2,14 @@
     float: left;
     width: 40px;
     height: 40px;
-    margin: 5px;
+    margin: 10px;
     background-color: white;
 }
 
 .header h1 {
     float: left;
     color: black;
-    margin: 7px 7px 5px 0px;
+    margin: 10px 7px 5px 0px;
 }
 
 .social img {
@@ -20,7 +20,7 @@
 }
 
 .social::after {
-	content: "Testing";
+	content: "Help ";
 }
 
 ul.TopNav {
