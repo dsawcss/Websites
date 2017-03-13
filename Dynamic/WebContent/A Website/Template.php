@@ -52,6 +52,7 @@
     
     <div class="ContentArea">
         <?php echo $content; ?>
+        <?php echo $second; ?>
     </div>
 
      <div class="FooterWrap">
