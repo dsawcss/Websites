@@ -1,6 +1,6 @@
 <?php 
-
-class WebsiteEntity
+//Building Functions for Database
+class FinanceEntity
 {
 	public $Xchange;
 	public $TickerSymbol;
@@ -16,10 +16,12 @@ class WebsiteEntity
 	public $Low;
 	public $Close;
 	public $Vol;
+	public $Comments;
 	
-	function __construct ($id, $country, $name, $address1, $address2, $address3, $image, $currency, $price)
+	function __construct ($Xchange, $TickerSymbol, $Name, $Date, 
+			$LastOpen, $LastHigh, $LastLow, $LastClose, $LastVol, 
+			$Open, $High, $Low, $Close, $Vol )
 	{
-		$this->id = $id;
 		$this->Xchange = $Xchange;
 		$this->TickerSymbol = $TickerSymbol;
 		$this->Name = $Name;
@@ -34,6 +36,7 @@ class WebsiteEntity
 		$this->Low = $Low;
 		$this->Close = $Close;
 		$this->Vol = $Vol;
+		$this->Comments = $Comments;
 	}
                                               
 }
