@@ -5,7 +5,7 @@ require ("Entities/WebsiteEntities.php");
 //Contact database related code for the finance page
 class FinanceModel
 {
-	//Get all stock names from database and return them in an array. 
+	//Get ALL stock names from database and return them in an array. 
 	function GetFinanceName ()
 	{
 		require 'Credentials.php';
@@ -19,8 +19,7 @@ class FinanceModel
 		//Get data from database.
 		while ($row = mysql_fetch_array($result))
 		{
-			array_push($Name, $row[0]);
-		}
+			array_push($Name, $row[0]); //Display Name Only For Dropdown List
 		
 		//Close connection and return result
 		mysql_close();
@@ -36,24 +35,25 @@ class FinanceModel
 		mysql_connect($host, $user, $password, $database) or die(mysql_error());
 		mysql_select_db($database);
 		
-		$query = "SELELCT * FROM finance WHERE Name LIKE '$Name'";
-		$financeArray = array ();
+		$query = "SELELCT * FROM Finance WHERE Name LIKE '$Name'";
+		$FinanceArray = array ();
 		
 		//Get data from databse
 		while ($row = mysql_fetch_array($result))
 		{
-			$Name = $row[1];
+			$Name = $row[1]; //Display All Data Columns in Rows
 			$
 			
-		}
 		
-		//Create finance objects and store them in an arry
-		$finance = new Fi
-		array_push($finaceArray, $finance);
+		
+		//Create finance objects and store them in an array
+		$Finance = new FinacneEntity(-1, $Name, $row);
+		array_push($FinaceArray, $Finance);
 		
 		//Close connection and return result
 		mysql_close();
-		returen $financeArray;
+		return $FinanceArray;
+		}
 	}
 }
 
