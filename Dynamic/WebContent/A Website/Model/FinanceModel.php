@@ -41,6 +41,7 @@ class FinanceModel
 		//Get data from databse
 		while ($row = mysql_fetch_array($result))
 		{
+			$id = $row[0]; 
 			$Name = $row[1]; //Display All Data Columns in Rows
 			$
 			
