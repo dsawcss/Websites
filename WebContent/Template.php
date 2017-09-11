@@ -59,7 +59,6 @@
         <div class="FooterMenu">
             <li><a href="#"> About Us </a></li>
             <li><a href="#"> Contact Us </a></li>
-            <li><a href="#"> FAQ </a></li>l
             <li><a href="#"> Feedback </a></li>
             <li><a href="#"> Terms &#38; Conditions </a></li>
             

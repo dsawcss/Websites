@@ -23,7 +23,7 @@
 .social::after {
 	font-size: 20px;
 	margin: 20px;
-	content: "";
+	content: "Testing for everything";
 }
 
 ul.TopNav {

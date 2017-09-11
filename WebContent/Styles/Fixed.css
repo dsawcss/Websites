@@ -50,7 +50,7 @@ html, body {
 /* unvisited link */
 a:link {
 	color: black;
-	text-decoration:none;
+	text-decoration:underline;
 }
 /* visited link */
 a:visited {
