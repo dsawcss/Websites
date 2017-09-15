@@ -91,76 +91,7 @@ class CoffeeModel {
 		$conn->close();
 		return $coffee;
 	}
-	
-	function InsertCoffee(CoffeeEntity $coffee)	{
-		require ('Credentials.php');
-		//Open connection and Select database.
-		$conn = mysqli_connect($host,$user, $passwd, $database);
-		if($conn->connect_error)	{
-			die("Connection failed: " . $conn->connect_error);
-		}
-		
-		$query = sprintf ("INSERT INTO coffee
-					(name, type, price, roast, country, image, review)
-					VALUES
-					('%s','%s','%s','%s','%s','%s','%s')",
-				mysqli_real_escape_string($conn, $coffee->name),
-				mysqli_real_escape_string($conn, $coffee->type),
-				mysqli_real_escape_string($conn, $coffee->price),
-				mysqli_real_escape_string($conn, $coffee->roast),
-				mysqli_real_escape_string($conn, $coffee->country),
-				mysqli_real_escape_string($conn, "Images/Coffee/" . $coffee->image),
-				mysqli_real_escape_string($conn, $coffee->review));
-		$this->PerformQuery($query);
-	}
-	
-	function UpdateCoffee($id, CoffeeEntity $coffee)	{
-		require ('Credentials.php');
-		//Open connection and Select database.
-		$conn = mysqli_connect($host,$user, $passwd, $database);
-		if($conn->connect_error)	{
-			die("Connection failed: " . $conn->connect_error);
-		}
-		
-		$query = sprintf ("UPDATE coffee
-				SET name = '%s', type = '%s', price = '%s', roast = '%s',
-				country = '%s', image = '%s', review ='%s'
-				WHERE id = $id",
-				mysqli_real_escape_string($conn, $coffee->name),
-				mysqli_real_escape_string($conn, $coffee->type),
-				mysqli_real_escape_string($conn, $coffee->price),
-				mysqli_real_escape_string($conn, $coffee->roast),
-				mysqli_real_escape_string($conn, $coffee->country),
-				mysqli_real_escape_string($conn, "Images/Cofee/" . $coffee->image),
-				mysqli_real_escape_string($conn, $coffee->review));
-		
-		$this->PerformQuery($query);
-	}
-	
-	function DeleteCoffee($id)	{
-		require ('Credentials.php');
-		//Open connection and Select database.
-		$conn = mysqli_connect($host,$user, $passwd, $database);
-		if($conn->connect_error)	{
-			die("Connection failed: " . $conn->connect_error);
-		}
-		
-		$query = "DELETE FROM coffee WHERE id = $id";
-		$this->PerformQuery($query);
-	}
-	
-	function PerformQuery($query)	{
-		require ('Credentials.php');
-		//Open connection and Select database.
-		$conn = mysqli_connect($host,$user, $passwd, $database);
-		if($conn->connect_error)	{
-			die("Connection failed: " . $conn->connect_error);
-		}
-		
-		//Execute query and close connection
-		mysqli_query($conn, $query) or die(mysqli_error($conn));
-		$conn->close();
-	}
+
 }
 ?>
 

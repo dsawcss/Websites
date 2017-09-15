@@ -2,7 +2,7 @@
 
 $title = "Home";
 $content = '<p>testing</p>';
-$second = '<p> test2</p>';
+$second = '<p>tesg</p>';
 
 include 'Template.php';
 ?>

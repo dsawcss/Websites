@@ -8,8 +8,8 @@
 <meta name="Description" content="">
 <meta name="test">
 <title><?php echo $title; ?></title>
-<link rel="stylesheet" type="text/css" href="Styles/Fixed.css" />
-<link rel="stylesheet" type="text/css" href="Styles/Template.css" />
+<link rel="stylesheet" type="text/css" href="Styles/Fixed.css">
+<link rel="stylesheet" type="text/css" href="Styles/Template.css">
 <script src="JavaScript/Template.js" type="text/javascript"></script>
 </head>
 

@@ -1,8 +1,10 @@
 .header img {
+	padding: 10px;
     float: left;
     width: 40px;
     height: 40px;
-    margin: 10px;
+    margin: 5px;
+    border: 1px solid black;
     background-color: white;
 }
 
@@ -17,13 +19,14 @@
     width: 20px;
     height: 20px;
     margin: 20px 2px 0px 2px;
+    border: 1px solid black;
     background-color: white;
 }
 
 .social::after {
 	font-size: 20px;
 	margin: 20px;
-	content: "Testing for everything";
+	content: "Which toy ";
 }
 
 ul.TopNav {
@@ -70,10 +73,10 @@ ul.TopNav li.icon {
 }
 
 @media screen and (max-width:768px) {
-    .TopNav.Responsive {
+    ul.TopNav.Responsive {
         position: relative;
     }
-    .TopNav.Responsive li.icon {
+    ul.TopNav.Responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -99,10 +102,10 @@ ul.TopNav li.icon {
 }
 
 @media screen and (max-width:600px) {
-    .TopNav.Responsive {
+    ul.TopNav.Responsive {
         position: relative;
     }
-    .TopNav.Responsive li.icon {
+    ul.TopNav.Responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
@@ -128,10 +131,10 @@ ul.TopNav li.icon {
 }
 
 @media screen and (min-width:320px) and (max-width:420px) {
-    .TopNav.Responsive {
+    ul.TopNav.Responsive {
         position: relative;
     }
-    .TopNav.Responsive li.icon {
+    ul.TopNav.Responsive li.icon {
         position: absolute;
         right: 0;
         top: 0;
