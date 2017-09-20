@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!DOCTYPE html> 
 <html lang="en">
 <head>
 
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="header">
+    <div class="header"> 
         <img src="" alt="box">
         <h1>
             <a href="#">Home</a>
