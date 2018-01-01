@@ -45,14 +45,19 @@
     <!-- Drop down the item when hover before clicking -->
 
     <br>
+    	
+    	<div class="LeftSideBar">
     
-    <div class="SideBar">
+    </div>
+   
+    <div class="RightSideBar">
     
     </div>
     
     <div class="ContentArea">
         <?php echo $content; ?>
         <?php echo $second; ?> 
+        <?php echo $third; ?>
     </div>
 
      <div class="FooterWrap">
@@ -63,6 +68,8 @@
             <li><a href="#"> Terms &#38; Conditions </a></li>
             
         </div>
+        
+        <div class="Footer"
 
         <div class="Footer">
             <p>Copyright &copy; 2016 .com &trade; All Rights Reserved. Year

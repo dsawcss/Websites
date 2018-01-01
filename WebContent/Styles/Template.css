@@ -26,7 +26,7 @@
 .social::after {
 	font-size: 20px;
 	margin: 20px;
-	content: "Ending all jobs in financial industry";
+	content: "Index page testing";
 }
 
 ul.TopNav {
@@ -150,15 +150,33 @@ ul.TopNav li.icon {
     }
 }
 
+.LeftSideBar {
+    float: left;
+    width: 250px;
+    height: 400px;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
+.RightSideBar {
+    float: right;
+    width: 250px;
+    height: 400px;
+    margin: 20px 10px;
+    padding: 10px;
+    border: 2px solid black;
+}
+
 div.desc {
     padding: 15px;
     text-align: center;
 }
 
 .FooterWrap {
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    height: 100px;
+    height: 80px;
     width: 100%;
     background-color:black;
 }
@@ -166,7 +184,7 @@ div.desc {
 .FooterMenu {
     list-style-type: none;
     text-align: center;
-    padding: 20px;
+    padding: 10px;
 }
 
 .FooterMenu li {
